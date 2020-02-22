@@ -12,5 +12,5 @@ router.register(r'room_booking', RoomBookingViewSet, base_name="room_booking")
 router.register(r'ticket', TicketViewSet, base_name="ticket")
 
 urlpatterns = [
-    url(r'^', include(router.urls)),
+    url(r'^api/', include(router.urls)),
 ]
