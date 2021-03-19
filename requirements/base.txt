@@ -1,6 +1,6 @@
 Django==1.9.8
 django-environ==0.4.3
-djangorestframework==3.3.2
+djangorestframework==3.11.2
 requests==2.18.4
 phonenumbers==8.5.0
 gunicorn==19.7.1
